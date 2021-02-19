@@ -1,0 +1,5 @@
+{
+    "require": {
+        "yakeing/dnspod_api": "^2.5"
+    }
+}

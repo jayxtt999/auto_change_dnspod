@@ -1,0 +1,81 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ce12af19b281d09b8468f5da36f80db1",
+    "packages": [
+        {
+            "name": "yakeing/dnspod_api",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yakeing/Dnspod_API.git",
+                "reference": "baf27e944a70d40e121494aa371b8bbcb543043e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yakeing/Dnspod_API/zipball/baf27e944a70d40e121494aa371b8bbcb543043e",
+                "reference": "baf27e944a70d40e121494aa371b8bbcb543043e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yakeing",
+                    "homepage": "http://weibo.com/yakeing"
+                }
+            ],
+            "description": "The DNSPod User API is restricted to individual users, making it easier and more flexible for users to manage their own domain names and records.",
+            "homepage": "https://github.com/yakeing/Dnspod_API",
+            "keywords": [
+                "AAAA",
+                "IP",
+                "MX",
+                "a",
+                "cname",
+                "dns",
+                "domain",
+                "ns",
+                "srv",
+                "txt"
+            ],
+            "time": "2019-07-19T01:15:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
