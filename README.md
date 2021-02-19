@@ -1,0 +1,2 @@
+# auto_change_dnspod
+如果触发封堵则修改dnspod解析
